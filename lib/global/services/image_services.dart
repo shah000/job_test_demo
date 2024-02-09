@@ -10,6 +10,7 @@ class ImageService {
         source: ImageSource.gallery, requestFullMetadata: true);
     if (pickedFile != null) {
       return File(pickedFile.path);
+      //
     } else {
       return null;
     }
